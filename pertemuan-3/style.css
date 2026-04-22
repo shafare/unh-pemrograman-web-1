@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(254, 236, 236);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Judul */
+h1 {
+    color: darkred;
+}
+
+/* Deskripsi */
+p {
+    font-size: 18px;
+}
+
+table {
+    margin: 20px auto;          /* tengah + jarak atas */
+    border-collapse: collapse;  /* gabung border */
+    font-size: 18px;
+    background-color: white;
+}
+
+/* Header tabel */
+th {
+    background-color: pink;
+    padding: 10px;
+}
+
+/* Isi tabel */
+td {
+    padding: 10px;
+}
+
+/* Border semua cell */
+th, td {
+    border: 1px solid black;
+}
