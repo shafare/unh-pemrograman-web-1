@@ -1,2 +1,3 @@
-# pemrograman-web-1-unh
-Kumpulan Kode Perkuliahan Pemrograman Web
+# Pemrograman Web 1
+## Universitas Nurdin Hamzah Jambi
+Kumpulan Kode yang digunakan dalam perkuliahan Pemrograman Web 1
