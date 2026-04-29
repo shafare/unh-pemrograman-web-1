@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Daftar Panitia</title>
+    </head>
+    <body>
+        <h1>Form Daftar Kepanitian</h1>
+        <form>
+            <!-- Masukkan Email -->
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="name@example.com" required><br>
+
+            <!-- Masukkan Nama Mahasiswa -->
+            <label for="name">Nama Mahasiswa</label><br>
+            <input type="text" id="name" name="name" placeholder="Shafatyra R" required><br>
+
+            <!-- Masukkan Angkatan -->
+            <p>Angkatan</p>
+            <input type="radio" id="angkatan2020" name="angkatan" value="2020" required>
+            <label for="angkatan2020">2020</label><br>
+            <input type="radio" id="angkatan2021" name="angkatan" value="2021">
+            <label for="angkatan2021">2021</label><br>
+            <input type="radio" id="angkatan2022" name="angkatan" value="2022">
+            <label for="angkatan2022">2022</label><br>
+
+            <!-- Masukkan Jurusan -->
+            <label for="jurusan">Jurusan</label><br>
+            <select id="jurusan" name="jurusan" required>
+                <option value="" disabled selected hidden>Pilih Jurusan</option>
+                <option value="informatika">Teknik Informatika</option>
+                <option value="sistem-informasi">Sistem Informasi</option>
+                <option value="teknosi">Teknologi Informasi</option>
+            </select><br>
+
+            <!-- Divisi Kepanitian -->
+            <p>Divisi Kepanitiaan</p>
+            <p>Silakan pilih divisi kepanitiaan, maksimal 2 divisi</p>
+            <input type="checkbox" id="sekben" name="divisi" value="sekben">
+            <label for="sekben"> Sekretaris dan Bendahara</label><br>
+            <input type="checkbox" id="humas" name="divisi" value="humas">
+            <label for="humas"> Humas dan Publikasi</label><br>
+            <input type="checkbox" id="acara" name="divisi" value="acara">
+            <label for="acara"> Acara</label><br>
+            <input type="checkbox" id="perlengkapan" name="divisi" value="perlengkapan">
+            <label for="perlengkapan"> Perlengkapan</label><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
