@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>Daftar Panitia</title>
+    </head>
+    <body>
+        <h1 class="judul">Form Daftar Kepanitian</h1>
+        <form class="form-container">
+            <!-- Masukkan Email -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="name@example.com" required>
+            </div>
+
+            <!-- Masukkan Nama Mahasiswa -->
+            <div class="form-group">
+                <label for="name">Nama Mahasiswa</label>
+                <input type="text" id="name" name="name" placeholder="Shafatyra R" required>
+            </div>
+
+            <!-- Masukkan Angkatan -->
+            <div class="form-group">
+                <p>Angkatan</p>
+                <label>
+                    <input type="radio" name="angkatan" value="2020" required> 2020
+                </label>
+                <label>
+                    <input type="radio" name="angkatan" value="2021"> 2021
+                </label>
+                <label>
+                    <input type="radio" name="angkatan" value="2022"> 2022
+                </label>
+            </div>
+
+            <!-- Masukkan Jurusan -->
+            <div class="form-group">
+                <label for="jurusan">Jurusan</label>
+                <select id="jurusan" name="jurusan" required>
+                    <option value="" disabled selected hidden>Pilih Jurusan</option>
+                    <option>Teknik Informatika</option>
+                    <option>Sistem Informasi</option>
+                    <option>Teknologi Informasi</option>
+                </select>
+            </div>
+
+            <!-- Divisi Kepanitian -->
+            <div class="form-group">
+                <p>Divisi Kepanitiaan</p>
+                <p>Silakan pilih divisi kepanitiaan, maksimal 2 divisi</p>
+
+                <label class="checkbox-item">
+                    <input type="checkbox" name="divisi"> Sekretaris dan Bendahara
+                </label>
+
+                <label class="checkbox-item">
+                    <input type="checkbox" name="divisi"> Humas dan Publikasi
+                </label>
+
+                <label class="checkbox-item">
+                    <input type="checkbox" name="divisi"> Acara
+                </label>
+
+                <label class="checkbox-item">
+                    <input type="checkbox" name="divisi"> Perlengkapan
+                </label>
+            </div>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit" class="btn-submit">
+        </form>
+    </body>
+</html>

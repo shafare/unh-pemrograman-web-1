@@ -1,0 +1,136 @@
+/* =====================
+   GLOBAL (TAG SELECTOR)
+===================== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcecec;
+    margin: 0;
+    padding: 0;
+}
+
+/* =====================
+   JUDUL (CLASS SELECTOR)
+===================== */
+.judul {
+    text-align: center;
+    color: darkred;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* =====================
+   FORM CONTAINER (BOX MODEL)
+===================== */
+.form-container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: white;
+    border-radius: 10px;
+
+    /* tambahan biar modern */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* =====================
+   FORM GROUP (SPACING)
+===================== */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* =====================
+   LABEL (COMBINATION SELECTOR)
+===================== */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* =====================
+   TEXT SECTION (P TAG)
+===================== */
+.form-container p {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* =====================
+   INPUT TEXT & EMAIL (ATTRIBUTE SELECTOR)
+===================== */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* =====================
+   RADIO & CHECKBOX
+===================== */
+.form-container input[type="radio"],
+.form-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+.checkbox-item {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+.checkbox-item input {
+    margin-right: 5px;
+}
+
+/* =====================
+   INPUT HOVER (INTERAKTIF)
+===================== */
+.form-container input:hover,
+.form-container select:hover {
+    border-color: pink;
+}
+
+/* =====================
+   PSEUDO-CLASS (FOCUS)
+===================== */
+.form-container input:focus,
+.form-container select:focus {
+    border-color: red;
+    outline: none;
+}
+
+/* =====================
+   BUTTON (CLASS SELECTOR)
+===================== */
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    /* smooth transition */
+    transition: 0.3s;
+}
+
+/* =====================
+   PSEUDO-CLASS (HOVER)
+===================== */
+.btn-submit:hover {
+    background-color: darkred;
+}
+
+/* =====================
+   PLACEHOLDER STYLE (OPTIONAL)
+===================== */
+::placeholder {
+    color: #aaa;
+}
